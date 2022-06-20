@@ -112,13 +112,16 @@ color: var(--attention-color);
     align-items: center;
 }
 
+.header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
+}
+
 .flex {
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #ECECEC;
 }
 
 .navigation-item + .navigation-item,
